@@ -1,0 +1,132 @@
+.images {
+    margin: 10px;
+    height: 250px;
+    margin-top: 50px;
+    margin-left: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+    transition: transform 100ms ease-in;
+    cursor: pointer;
+}
+
+.images_two {
+    margin: 10px;
+    height: 250px;
+    margin-top: 50px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+    transition: transform 100ms ease-in;
+    cursor: pointer;
+}
+
+.images_three {
+    margin: 10px;
+    height: 250px;
+    margin-top: 50px;
+    margin-left: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+    transition: transform 100ms ease-in;
+    cursor: pointer;
+}
+
+.images:hover {
+    transform: scale(1.07);
+}
+
+.images_two:hover {
+    transform: scale(1.07);
+}
+
+.images_three:hover {
+    transform: scale(1.07);
+}
+
+h2 {
+    font-size: 29px;
+    font-weight: 600;
+}
+
+p {
+    margin-top: 15px;
+}
+
+.home {
+    display: flex;
+    width: 80vw;
+    object-fit: contain;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.home_top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home_center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 30px; */
+}
+
+.home_content {
+    width: 40vw;
+    padding-left: 10px;
+}
+
+.home_content_two {
+    width: 35vw;
+    padding-left: 10px;
+}
+
+.home_content_three {
+    width: 35vw;
+    padding-left: 10px;
+}
+
+.home_content {
+    width: 35vw;
+    padding-left: 40px;
+}
+
+.home_content > input {
+    width: 25vw;
+    height: 35px;
+    margin-top: 20px;
+}
+
+.home_content > button {
+    background-color: red;
+    height: 40px;
+    margin-left: 10px;
+    text-transform: inherit;
+}
+
+.home_content_two > input {
+    width: 25vw;
+    height: 35px;
+    margin-top: 20px;
+}
+
+.home_content_two > button {
+    background-color: red;
+    height: 40px;
+    margin-left: 10px;
+    text-transform: inherit;
+}
+
+.news_button {
+    background-color: red !important;
+    height: 40px;
+    margin-left: 10px;
+    text-transform: inherit !important;
+    margin-top: 10px !important;
+}
